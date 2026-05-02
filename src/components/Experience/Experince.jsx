@@ -7,6 +7,7 @@ export default function Experience() {
         points: [
           "Standardized workflow orchestration using Apache Airflow handling 100k+ files per run.",
           "Built Kafka-driven orchestration service (Spring Boot) for Databricks workflows.",
+          "Build asynchronous API using FastAPI and PostgreSQL to handle 10k+ requests/day.",
           "Reduced onboarding time by ~80% using Azure Data Factory, SQL, and Python.",
           "Developed internal tools to improve engineering productivity and automation.",
         ],
@@ -18,6 +19,7 @@ export default function Experience() {
         points: [
           "Built backend services using FastAPI for a freelancer platform.",
           "Implemented real-time chat using WebSockets.",
+          "Designed and developed frontend components with React and Tailwind CSS.",
         ],
       },
       {
@@ -27,6 +29,16 @@ export default function Experience() {
         points: [
           "Integrated Liquibase with Spring Boot for database versioning.",
           "Built CI/CD pipelines using GitLab and Kubernetes.",
+        ],
+      },
+      {
+        role: "Web Developer Intern",
+        company: "Kutumb India",
+        duration: "Oct 2022 – Dec 2022",
+        points: [
+          "Migrated the backedend from PHP to Node.js, improving performance by 30%.",
+          "Designed and implemented a new frontend using React and Bootstrap, enhancing user experience and increasing engagement by 25%.",
+          "Lead the team of 3 interns to successfully complete the migration project within the 3-month internship period, demonstrating strong leadership and project management skills.",
         ],
       },
     ];

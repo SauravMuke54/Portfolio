@@ -22,7 +22,7 @@ export default function Header() {
 
         {/* CTA Button */}
         <a
-          href="/resume.pdf"
+          href="/Saurav_Muke_Resume.pdf"
           className="hidden md:inline-block bg-primary text-white px-4 py-2 rounded-lg hover:opacity-90 transition"
         >
           Resume

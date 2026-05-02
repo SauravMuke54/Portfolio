@@ -10,8 +10,8 @@ export default function Projects() {
           "Reusable configurations for repeated comparisons",
         ],
         tech: ["Python", "Streamlit", "SQLAlchemy"],
-        github: "https://github.com/sauravmuke54/data-comparator", // update if needed
-        live: "#", // optional
+        github: "https://github.com/SauravMuke54/Multi-Source-Data-Comparator", // update if needed
+        live: "https://data-comparator.streamlit.app", // optional
       },
       {
         title: "Log Ingestor & Analytics Dashboard",
@@ -26,6 +26,32 @@ export default function Projects() {
         github: "https://github.com/sauravmuke54/log-ingestor", // update if needed
         live: "#",
       },
+      {
+        title: "RAG Portfolio",
+        description:
+          "My personal chatbot portfolio containing detailed information about my projects, experience, and skills. Built using Retrieval-Augmented Generation (RAG) techniques to provide dynamic and context-aware responses.",
+        points: [
+          "RAG-based chatbot providing personalized responses",
+          "ChromaDB for efficient vector storage and retrieval",
+          "GroqAPI for fast and scalable language model inference",
+        ],
+        tech: ["Python", "ChromaDB", "GroqAPI", "Streamlit"],
+        github: "https://github.com/SauravMuke54/rag_portfolio", // update if needed
+        live: "https://sauravmuke.streamlit.app",
+      },
+      {
+        title: "Rate Limiter",
+        description:
+          "A rate limiter built using python and redis to control the rate of request to an API. It uses TTL and Redis' atomic operations to ensure accurate rate limiting across distributed systems.",
+        points: [
+          "TTL-based rate limiting using Redis for distributed environments",
+          "Limits user request based on IP address and api endpoint",
+          "Highly configurable with support for different rate limits, api endpoints and time windows",
+        ],
+        tech: ["Python", "FastAPI", "Redis"],
+        github: "https://github.com/SauravMuke54/rate-limiter", // update if needed
+        live: "#",
+      }
     ];
   
     return (

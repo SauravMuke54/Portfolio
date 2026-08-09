@@ -16,7 +16,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center gap-8 text-textSecondary">
           <a href="#about" className="hover:text-primary transition">About</a>
           <a href="#projects" className="hover:text-primary transition">Projects</a>
-          <a href="#skills" className="hover:text-primary transition">Skills</a>
+          <a href="#experience" className="hover:text-primary transition">Experince</a>
           <a href="#contact" className="hover:text-primary transition">Contact</a>
         </nav>
 

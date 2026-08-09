@@ -1,47 +1,48 @@
 export default function Experience() {
-    const experiences = [
-      {
-        role: "Software Engineer",
-        company: "UBS",
-        duration: "Aug 2024 – Present",
-        points: [
-          "Standardized workflow orchestration using Apache Airflow handling 100k+ files per run.",
-          "Built Kafka-driven orchestration service (Spring Boot) for Databricks workflows.",
-          "Build asynchronous API using FastAPI and PostgreSQL to handle 10k+ requests/day.",
-          "Reduced onboarding time by ~80% using Azure Data Factory, SQL, and Python.",
-          "Developed internal tools to improve engineering productivity and automation.",
-        ],
-      },
-      {
-        role: "Full-Stack Intern",
-        company: "Grull Technologies",
-        duration: "Mar 2024 – May 2024",
-        points: [
-          "Built backend services using FastAPI for a freelancer platform.",
-          "Implemented real-time chat using WebSockets.",
-          "Designed and developed frontend components with React and Tailwind CSS.",
-        ],
-      },
-      {
-        role: "Summer Intern",
-        company: "UBS",
-        duration: "Jun 2023 – Aug 2023",
-        points: [
-          "Integrated Liquibase with Spring Boot for database versioning.",
-          "Built CI/CD pipelines using GitLab and Kubernetes.",
-        ],
-      },
-      {
-        role: "Web Developer Intern",
-        company: "Kutumb India",
-        duration: "Oct 2022 – Dec 2022",
-        points: [
-          "Migrated the backedend from PHP to Node.js, improving performance by 30%.",
-          "Designed and implemented a new frontend using React and Bootstrap, enhancing user experience and increasing engagement by 25%.",
-          "Lead the team of 3 interns to successfully complete the migration project within the 3-month internship period, demonstrating strong leadership and project management skills.",
-        ],
-      },
-    ];
+  const experiences = [
+    {
+      role: "Software Engineer",
+      company: "UBS",
+      duration: "Aug 2024 – Present",
+      points: [
+        "Built a fault-tolerant Spring Boot and Kafka orchestration platform managing 200+ Databricks jobs across 10+ engineering teams, enabling automated execution, dependency management, and workflow recovery.",
+        "Refactored a proof-of-concept Python service for production readiness using Factory, Singleton, Builder, and Provider design patterns, improving testability and enabling reusable components.",
+        "Designed JWT-secured Role-Based Access Control (RBAC) middleware in FastAPI, securing 10+ API endpoints serving upstream systems.",
+        "Built asynchronous, event-driven workflow APIs using FastAPI and PostgreSQL LISTEN/NOTIFY, enabling concurrent task processing and real-time workflow tracking.",
+        "Engineered Apache Airflow pipelines across 16 parallel AKS workloads, processing 100,000+ files and 10,000+ workflow tasks daily with automated retries and failure recovery.",
+        "Automated control onboarding using Azure Data Factory, Python, and SQL, reducing onboarding turnaround time from 2 days to under 4 hours.",
+      ],
+    },
+    {
+      role: "Full-Stack Intern",
+      company: "Grull Technologies",
+      duration: "Mar 2024 – May 2024",
+      points: [
+        "Built backend services for a freelancer marketplace using Python and FastAPI, supporting job postings, deliverable management, and negotiation workflows.",
+        "Implemented real-time negotiation chat using WebSockets, improving freelancer–client communication efficiency by 20%.",
+        "Designed and developed frontend components using React and Tailwind CSS.",
+      ],
+    },
+    {
+      role: "Summer Intern",
+      company: "UBS",
+      duration: "Jun 2023 – Aug 2023",
+      points: [
+        "Automated database schema versioning by integrating Liquibase with Spring Boot, improving deployment consistency and reducing manual migration effort.",
+        "Built CI/CD pipelines using GitLab and Kubernetes to automate database change deployments and streamline release processes.",
+      ],
+    },
+    {
+      role: "Web Developer Intern",
+      company: "Kutumb India",
+      duration: "Oct 2022 – Dec 2022",
+      points: [
+        "Migrated the backend from PHP to Node.js, improving application performance by 30%.",
+        "Designed and implemented a new frontend using React and Bootstrap, enhancing user experience and increasing engagement by 25%.",
+        "Led a team of 3 interns to successfully complete the migration project within the 3-month internship period, demonstrating strong leadership and project management skills.",
+      ],
+    },
+  ];
   
     return (
       <section id="experience" className="bg-bg text-textPrimary px-6 py-24">
